@@ -1,0 +1,49 @@
+*{margin:0;}
+
+body {
+    width:100vw; 
+    height:100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    user-select: none;
+    background-color: #212121;
+    color: white;
+}
+
+#clicking-area:hover{
+    background-color: #292929;
+}
+
+#clicking-area:active{
+    background-color: #333333;
+
+}
+
+#shop{
+    border: 2px solid black;
+}
+
+#upgr-btn{
+    background-color: aqua;
+    color: black;
+    width: max-content;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px aqua
+}
+
+#upgr-btn:hover{
+    background-color: rgb(0, 230, 230);
+}
+
+#upgr-btn:active{
+    background-color: rgb(0, 214, 214);
+}
+
+#money{
+    padding: 1rem;
+    
+}
